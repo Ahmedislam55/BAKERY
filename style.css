@@ -1,0 +1,229 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container img
+{
+    width: 40%;
+}
+.home
+{
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    background-position: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home .caption
+{
+    text-align: center;
+    color: white;
+}
+.caption h3
+{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+.caption h2
+{
+    font-weight: 800;
+    font-style:initial;
+    font-size: 65px;
+}
+.caption p
+{
+    font-size: 20px;
+}
+.caption button
+{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+    transition: all 1s;
+    font-family:sans-serif;
+    border-radius: 10px;
+}
+.clr
+{
+    clear: both;
+}
+.about
+{
+    margin: 25px 0px;
+}
+.about .image
+{
+    float: left;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .image img
+{
+    width: 80%;
+    border-radius: 10px;
+}
+.about .text
+{
+    float: right;
+    width: 50%;
+}
+.about .text h2
+{
+    text-align: center;
+    font-size:30px;
+    font-weight: 800;
+}
+.about .text p
+{
+    font-size: 20px;
+    color: #686868; 
+}
+.about .text li
+{
+    font-size: 20px;
+    color: #686868;
+    padding: 10px 0px; 
+}
+.gallary .image
+{
+    float: right;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.gallary .image img
+{
+    width: 80%;
+    border-radius: 10px;
+}
+.gallary .caption
+{
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin: 20px;
+
+}
+.gallary .caption h2
+{
+    font-weight: 800;
+    font-style:initial;
+    font-size: 30px;
+}
+.gallary .caption p
+{
+    font-size: 20px;
+    color: #686868;
+}
+.baking
+{
+    margin: 20px 0px;
+    text-align: center;
+}
+.baking .continer
+{
+    width: 33%;
+    float: left;
+}
+.baking .continer img
+{
+    width: 70%;
+    border-radius: 10px;
+}
+.baking h2
+{
+    font-weight: 800;
+    font-style:initial;
+    font-size: 30px;
+}
+.baking p
+{
+    font-size: 20px;
+    color: #686868; 
+}
+.baking .continer p
+{
+    font-size: 15px;
+    padding: 10px;
+}
+.baking .continer h3
+{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.contact
+{
+    margin: 25px 0px;
+}
+.information
+{
+    float: left;
+    width: 54%;
+    margin-left: 20px;
+}
+.information h2
+{
+    text-align: center;
+    font-weight: 800;
+    font-style:initial;
+    font-size: 30px;
+}
+.information p
+{
+    font-size: 20px;
+    color: #686868; 
+}
+.information li
+{
+    font-size: 20px;
+    color: #686868;
+    padding: 10px 0px; 
+}
+.map
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    width: 40%;
+}
+.bakery
+{
+    background-color: #353330;
+    text-align: center;
+    margin-bottom: 0;
+}
+.bakery img
+{
+    width: 20%;
+}
+.bakery h3
+{
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+.bakery i
+{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+.bakery i:hover
+{
+    color: #09c;
+    transition: 1s;
+}
